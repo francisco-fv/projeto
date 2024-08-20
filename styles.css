@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --gray: #555555;
+    --red: #A6130A;
+    --black-gray: #333333;
+    --black: #111111;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 26px 235px;
+}
+
+.external-link a{
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--gray);
+    text-decoration: none;
+    margin-left: 17px;
+}
+
+.article-header{
+    margin: 42px 0 33px 0;
+}
+
+.article-header h1{
+    color: var(--black);
+    margin-right: 236px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.article-header h2{
+    padding-top: 33px;
+    margin-right: 366px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.article-credits .author{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.article-credits .author span{
+    font-weight: 400;
+}
+
+.article-credits .date{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.34px;
+}
+
+hr{
+    background-color: #B0AFAF;
+    height: 1px;
+    margin: 0 210px;
+}
+
+main{
+    margin: 69px 0 24px 375px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+main span{
+    color: var(--red);
+}
+
+.article-primary p{
+    margin-right: 380px;
+}
+
+.article-primary .key-points{
+    margin: 14px 383px 25px 32px;
+    color: var(--red);
+    font-weight: 700;
+}
+
+.article-primary .text-margin{
+    margin-top: 17px;
+    margin-bottom: 18.15px;
+}
+
+.article-secondary h2{
+    color: var(--black);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 32.05px;
+    margin-bottom: 18.8px;
+}
+
+.article-secondary h3{
+    color: var(--gray);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 32.05px;
+    margin-bottom: 18.8px;
+}
+
+.article-secondary p{
+    margin-right: 396px;
+    margin-bottom: 22px;
+}
+
+.article-secondary .article-quote{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--black-gray);
+    border-left: 3px solid #A6130A;
+    padding-left: 14px;
+}
